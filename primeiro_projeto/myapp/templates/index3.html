@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pontos Turísticos em Gramado</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap" rel="stylesheet" />
+  <style>
+    /* Reset e box-sizing */
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+      color: #2e3a59;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      background-color: #3f72af;
+      width: 100%;
+      padding: 30px 20px;
+      margin-bottom: 40px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      border-radius: 0 0 15px 15px;
+    }
+
+    header h1 {
+      font-family: 'Montserrat', sans-serif;
+      color: #f9f9f9;
+      text-align: center;
+      font-size: 2.8rem;
+      letter-spacing: 1px;
+      margin: 0;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    }
+
+    main {
+      max-width: 900px;
+      width: 100%;
+      background-color: #fff;
+      padding: 30px 40px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(63, 114, 175, 0.2);
+      transition: box-shadow 0.3s ease;
+    }
+
+    main:hover {
+      box-shadow: 0 12px 30px rgba(63, 114, 175, 0.35);
+    }
+
+    h2 {
+      font-family: 'Montserrat', sans-serif;
+      color: #1e2a4d;
+      margin-bottom: 15px;
+      margin-top: 40px;
+      letter-spacing: 0.5px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #4a5160;
+      margin-bottom: 20px;
+      font-style: normal;
+      line-height: 1.7;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: 15px;
+      margin-bottom: 35px;
+      box-shadow: 0 8px 15px rgba(63, 114, 175, 0.3);
+      transition: transform 0.3s ease;
+    }
+
+    img:hover {
+      transform: scale(1.03);
+    }
+
+    a {
+      color: #3f72af;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #1e2a4d;
+      text-decoration: underline;
+    }
+
+    h4 {
+      font-family: 'Montserrat', sans-serif;
+      color: #1e2a4d;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      letter-spacing: 0.5px;
+    }
+
+    /* Responsivo */
+    @media (max-width: 700px) {
+      main {
+        padding: 20px;
+      }
+
+      header h1 {
+        font-size: 2rem;
+      }
+
+      img {
+        max-height: 250px;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Pontos Turísticos em Gramado</h1>
+  </header>
+
+  <main>
+    <p>O turismo em Gramado oferece atrações para todos os gostos, como:</p>
+
+    <h2>Igreja Matriz São Pedro Apóstolo</h2>
+    <img src="https://portalgramado.s3.sa-east-1.amazonaws.com/images/3TlkyUIpa8IZnCCBvdcMhVa0hDwXqe0sbLlTZksZ.png" alt="Igreja Matriz São Pedro Apóstolo">
+
+    <h2>Snowland</h2>
+    <img src="https://roteiropronto.com/wp-content/uploads/2021/11/snowland-gramado-1024x586.png" alt="Snowland em Gramado">
+
+    <h2>Fonte do Amor</h2>
+    <img src="https://www.melhoresdestinos.com.br/wp-content/uploads/2021/12/fonte-amor-eterno-gramado-dicas.jpeg" alt="Fonte do Amor em Gramado">
+
+    <h2>Mini Mundo</h2>
+    <img src="https://blog.blablacar.com.br/wp-content/uploads/2024/04/mini-mundo-gramado-2.webp" alt="Mini Mundo em Gramado">
+
+    <h2>Rua Torta</h2>
+    <img src="https://recantodaserra.com.br/wp-content/uploads/2024/04/passeios-gratuitos-em-gramado.webp" alt="Rua Torta em Gramado">
+
+    
+    <h4></h4>
+    <a href="http://127.0.0.1:8000/gastronomia" rel="noopener noreferrer">Gastronomia em Gramado</a>
+    <h4></h4>
+    <a href="http://127.0.0.1:8000/" rel="noopener noreferrer">História De Gramado</a>
+
+
+</main>
+</body>
+
+</html>
